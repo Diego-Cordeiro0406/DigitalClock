@@ -1,0 +1,50 @@
+body{
+background: aqua;
+font: normal 15pt Rockwell
+}
+header{
+    text-align: center;
+}
+section{
+background: rgb(12, 12, 12);
+border-radius: 50%;
+width: 400px;
+height: 400px;
+text-align:center;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(255, 254, 254, 0.781);
+position: relative;
+}div#msg{
+    color: aqua;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:35%;
+    left: 31%;
+    margin: -25px 0 0 -25px;
+}
+
+div#hora{
+    color: aqua;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:45%;
+    left: 25%;
+    margin: -25px 0 0 -25px;
+    font: normal 50pt Rockwell
+}
+div#data{
+    color: rgb(124, 214, 22);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:70%;
+    left: 30%;
+    margin: -25px 0 0 -25px;
+    font: normal 30pt Rockwell
+} 
+footer{
+text-align: end;
+font-style: italic;
+}
